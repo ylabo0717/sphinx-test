@@ -12,6 +12,11 @@ sphinx\_test.my\_module module
    :undoc-members:
    :show-inheritance:
 
+.. automodule:: sphinx_test.my_module2
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
 Module contents
 ---------------
 
