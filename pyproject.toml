@@ -20,6 +20,8 @@ managed = true
 dev-dependencies = [
     "black>=24.8.0",
     "flake8>=7.1.1",
+    "sphinx<8.0",
+    "sphinx-rtd-theme>=2.0.0",
 ]
 
 [tool.hatch.metadata]
