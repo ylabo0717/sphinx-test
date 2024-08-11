@@ -10,3 +10,5 @@
 #   universal: false
 
 -e file:.
+pip==24.2
+    # via sphinx-test
