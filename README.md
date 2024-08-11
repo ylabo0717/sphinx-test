@@ -16,5 +16,6 @@ source .venv/bin/activate
 ## Generate the documentation
 
 ``` bash
+./gen_doc.sh
 ```
 
