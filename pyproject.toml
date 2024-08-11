@@ -18,10 +18,9 @@ build-backend = "hatchling.build"
 [tool.rye]
 managed = true
 dev-dependencies = [
-    "black>=24.8.0",
-    "flake8>=7.1.1",
     "sphinx<8.0",
     "sphinx-rtd-theme>=2.0.0",
+    "ruff>=0.5.7",
 ]
 
 [tool.hatch.metadata]
