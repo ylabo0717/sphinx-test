@@ -14,6 +14,7 @@ alabaster==0.7.16
     # via sphinx
 babel==2.16.0
     # via sphinx
+bandit==1.7.9
 certifi==2024.7.4
     # via requests
 charset-normalizer==3.3.2
@@ -25,18 +26,35 @@ idna==3.7
     # via requests
 imagesize==1.4.1
     # via sphinx
+iniconfig==2.0.0
+    # via pytest
 jinja2==3.1.4
     # via sphinx
+markdown-it-py==3.0.0
+    # via rich
 markupsafe==2.1.5
     # via jinja2
+mdurl==0.1.2
+    # via markdown-it-py
 packaging==24.1
+    # via pytest
     # via sphinx
+pbr==6.0.0
+    # via stevedore
 pip==24.2
     # via sphinx-test
+pluggy==1.5.0
+    # via pytest
 pygments==2.18.0
+    # via rich
     # via sphinx
+pytest==8.3.2
+pyyaml==6.0.2
+    # via bandit
 requests==2.32.3
     # via sphinx
+rich==13.7.1
+    # via bandit
 snowballstemmer==2.2.0
     # via sphinx
 sphinx==7.4.7
@@ -57,5 +75,7 @@ sphinxcontrib-qthelp==2.0.0
     # via sphinx
 sphinxcontrib-serializinghtml==2.0.0
     # via sphinx
+stevedore==5.2.0
+    # via bandit
 urllib3==2.2.2
     # via requests
